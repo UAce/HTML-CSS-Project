@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Dank Animes</title>
+        <link href="CSS_edit.css" type="text/css" rel="stylesheet" />
+    </head>
+        
+    <body>
+        
+    
+        <div class="one"> </div>
+        
+        <div class="menu">
+            <img class="logo" src="">
+            <div class="nav">
+                <ul>
+                    <li><button class="current" onclick="window.location.href='Anime.html'">Home</button></li>
+                    <li><button class="link" onclick="window.location.href='?'">Anime List</button></li>
+                    <li><button class="link" onclick="window.location.href='?'">???</button></li>
+                    <li><button class="link" onclick="window.location.href='Contact.html'">Contact</button></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form action="">
+                    <input id="SS" type:"search" name:"search" placeholder="Search Anime" />
+                    <!--<input type:"button" value:"Search" /> -->
+                </form>
+            </div>
+        </div>
+    
+        <hr>
+        
+        <div class="images">
+            <div class="container">
+                <button class="A"  onclick="window.location.href='Action_Anime.html'"><span>Action</span></button>
+                <a href="Action_Anime.html">
+                <img class="IMG" src="Images/Action.jpg"></a>
+                <p>The action genre in anime depicts extremely high levels of high-intensity action and clash of physical forces. </p>
+            </div>
+            <div class="container">
+                <button class="A"  onclick="window.location.href='Romance_Anime.html'"><span>Romance</span></button>
+                <a href="Romance_Anime.html">
+                <img class="IMG" src="Images/romance.jpg"></a>
+                <p>Romance animes is full of love and Sweet moments. It focuses on the romantic relationships of characters.</p>
+            </div>
+            <div class="container">
+                <button class="A"  onclick="window.location.href='Comedy_Anime.html'"><span>Comedy</span></button>
+                <a href="Comedy_Anime.html"> 
+                <img class="IMG" src="Images/comedy"></a>
+                <p>The comedy genre contains funny characters and situations which will make you laugh your ass off. </p>
+            </div>
+        </div>           
+        
+        <div>
+        
+            <button class="butt"><span>CLICK</span></button>
+            
+        </div>
+        
+        <Script>
+            function anime(Name, Name2, Rating, Genre, Image, Synopsis) {
+                this.Name = Name;
+                this.AltName = Name2;
+                this.Rating = Rating;
+                this.Genre = Genre;
+                this.Img = Image;
+                this.Syn = Synopsis;
+            }
+            var a1 = new anime("Fate/Zero", "フェイト/ゼロ", 8.53 , "Action", "Fate_zero.jpg", "With the promise of granting any wish, the omnipotent Holy Grail triggered three wars in the past, each too cruel and fierce to leave a victor. In spite of that, the wealthy Einzbern family is confident that the Fourth Holy Grail War will be different; namely, with a vessel of the Holy Grail now in their grasp. Solely for this reason, the much hated "Magus Killer" Kiritsugu Emiya is hired by the Einzberns, with marriage to their only daughter Irisviel as binding contract. Kiritsugu now stands at the center of a cutthroat game of survival, facing off against six other participants, each armed with an ancient familiar, and fueled by unique desires and ideals. Accompanied by his own familiar, Saber, the notorious mercenary soon finds his greatest opponent in Kirei Kotomine, a priest who seeks salvation from the emptiness within himself in pursuit of Kiritsugu. Based on the light novel written by Gen Urobuchi, Fate/Zero depicts the events of the Fourth Holy Grail War—10 years prior to Fate/stay night. Witness a battle royale in which no one is guaranteed to survive. [Written by MAL Rewrite]");
+            var a2 = new anime("Danshi Koukousei no Nichijou", "Daily Lives of High School Boys", 8.35, "Comedy", "Danshi.jpg", "Roaming the halls of the all-boys Sanada North High School are three close comrades: the eccentric ringleader with a hyperactive imagination Hidenori, the passionate Yoshitake, and the rational and prudent Tadakuni. Their lives are filled with giant robots, true love, and intense drama... in their colorful imaginations, at least. In reality, they are just an everyday trio of ordinary guys trying to pass the time, but who said everyday life couldn't be interesting? Whether it's an intricate RPG reenactment or an unexpected romantic encounter on the riverbank at sunset, Danshi Koukousei no Nichijou is rife with bizarre yet hilariously relatable situations that are anything but mundane. [Written by MAL Rewrite]");
+        </Script>
+        
+    </body>
+        
+    
+
+</html>

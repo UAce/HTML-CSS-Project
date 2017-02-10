@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Good Animes</title>
+        <link href="CSS_edit.css" type="text/css" rel="stylesheet" />
+    </head>
+        
+    <body>
+        
+    
+        <div class="one">
+            
+        </div>
+        
+        <div class="menu">
+            <img class="logo" src="">
+            <div class="nav">
+                <ul>
+                    <li><button class="current" onclick="window.location.href='Anime.html'">Home</button></li>
+                    <li><button class="link" onclick="window.location.href='?'">Anime List</button></li>
+                    <li><button class="link" onclick="window.location.href='?'">???</button></li>
+                    <li><button class="link" onclick="window.location.href='?'">Contact</button></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form action="">
+                    <input id="SS" type:"search" name:"search" placeholder="Search Anime" />
+                    <!--<input type:"button" value:"Search" /> -->
+                </form>
+            </div>
+        </div>
+    
+        <hr>
+        
+        <div class="images">
+            <div class="container">
+                <button class="A"  onclick="window.location.href='Action_Anime.html'">Action</button>
+                <a href="Action_Anime.html">
+                <img class="IMG" src="Images/Action.jpg"></a>
+                <p>The action genre in anime depicts extremely high levels of high-intensity action and clash of physical forces. </p>
+            </div>
+            <div class="container">
+                <button class="A"  onclick="window.location.href='Romance_Anime.html'">Romance</button>
+                <a href="Romance_Anime.html">
+                <img class="IMG" src="Images/romance.jpg"></a>
+                <p>Romance animes is full of love and Sweet moments. It focuses on the romantic relationships of characters.</p>
+            </div>
+            <div class="container">
+                <button class="A"  onclick="window.location.href='Comedy_Anime.html'">Comedy</button>
+                <a href="Comedy_Anime.html"> 
+                <img class="IMG" src="Images/comedy"></a>
+                <p>The comedy genre contains funny characters and situations which will make you laugh your ass off. </p>
+            </div>
+        </div>           
+        
+        <div>
+        
+            <button class="butt">CLICK</button>
+            
+        </div>
+        
+    </body>
+        
+    
+
+</html>

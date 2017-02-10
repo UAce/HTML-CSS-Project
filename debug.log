@@ -1,0 +1,3 @@
+[0809/204438:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[0809/210257:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[0809/230030:ERROR:file_io.cc(30)] read: expected 36, observed 0
